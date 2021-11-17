@@ -42,7 +42,7 @@ This is the answer I found on [StackOverflow](https://stackoverflow.com/question
 
 > The only difference is that [`std::endl`](http://en.cppreference.com/w/cpp/io/manip/endl) flushes the output buffer, and `'\n'` doesn't. If you don't want the buffer flushed frequently, use `'\n'`. If you do (for example, if you want to get all the output, and the program is unstable), use `std::endl`.
 
-In conclusion, using which one is just based on your needs and also your preferences. 
+In conclusion, using which one is based on your needs and also your preferences. 
 
 ## References
 
