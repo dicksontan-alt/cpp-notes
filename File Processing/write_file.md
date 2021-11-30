@@ -31,7 +31,11 @@ To write/send data to files, the syntax is as simple as following:
 `outfile << <data>`
 
 ## Close file
-Lastly, don't forget to close the files after opening them. This is [why you should close it](https://stackoverflow.com/a/29536383):
+Lastly, don't forget to close the files after opening them by using `close()` method. The syntax is as following:
+
+`outfile.close()`
+
+This is [why you should close it](https://stackoverflow.com/a/29536383):
 
 >  There are not unlimited available File Descriptors (or in windows, the conceptually similar HANDLES). Every time you access a file ressource, even for reading, you are reducing the number of handles (or FD's) available to other processes. every time you close a handle, you release it and makes it available for other processes.
 
