@@ -1,5 +1,5 @@
 # Write to Files
-In order for us to write to files, there are three steps we need to follow:
+In order for us to write to files, there are five steps we need to follow:
 1. Gain access to work with files
 2. Create link between files and file stream object
 3. Open the files
