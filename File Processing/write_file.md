@@ -67,6 +67,7 @@ int main(){
   outfile.close(); // Close file
   
   return 0;
+}
 ```
 Assume `s1` is "Hello" and `s2` is "World", `sample.txt` will look like this after the code is executed:
 
