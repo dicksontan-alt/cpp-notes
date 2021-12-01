@@ -32,7 +32,7 @@ Normally, we read data from files by initialize a ***variable*** and copy the da
 
 `infile >> <variable name>`
 
-**By default, C++ reads the file line by line. We can show this by the following example:**
+**By default, C++ reads the file which seperate by space. We can show this by the following example:**
 
 Assume that there is a text file named `test.txt` which contains the following data inside the file:
 ```
